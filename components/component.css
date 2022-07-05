@@ -1,0 +1,91 @@
+.component-container {
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.component-icon {
+  width: 64px;
+  height: 64px;
+}
+.component-text {
+  color: #181818;
+}
+
+@media(max-width: 991px) {
+  .component-container {
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    padding-left: 8px;
+    flex-direction: row;
+  }
+  .component-icon {
+    width: 64px;
+    height: 64px;
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+  }
+  .component-text {
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    font-size: 90%;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 300;
+  }
+}
+@media(max-width: 767px) {
+  .component-container {
+    align-items: center;
+    flex-direction: row;
+  }
+  .component-icon {
+    width: 64px;
+    height: 64px;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .component-text {
+    font-size: 90%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    font-family: Inter;
+    font-weight: 300;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .component-container {
+    align-items: center;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+  .component-icon {
+    width: 30%;
+    height: 30%;
+  }
+  .component-text {
+    font-size: 80%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .component-root-class-name {
+    margin: var(--dl-space-space-halfunit);
+  }
+}
