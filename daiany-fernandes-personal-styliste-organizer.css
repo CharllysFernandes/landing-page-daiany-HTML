@@ -1,3 +1,663 @@
+.first-page-laptops-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+}
+.first-page-laptops-container1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.first-page-laptops-text {
+  color: #9C6660;
+  font-size: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  margin-left: var(--dl-space-space-doubleunit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 3.9px;
+}
+.first-page-laptops-text1 {
+  text-transform: uppercase;
+}
+.first-page-laptops-text2 {
+  font-size: 350%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: El Messiri;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-doubleunit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  letter-spacing: -1.3px;
+}
+.first-page-laptops-text4 {
+  color: #181818;
+  margin: var(--dl-space-space-unit);
+  font-size: 100%;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.first-page-laptops-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.first-page-laptops-social-bar {
+  width: 100%;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+  justify-content: center;
+}
+.first-page-laptops-link {
+  display: contents;
+}
+.first-page-laptops-icon {
+  width: 42px;
+  height: 42px;
+  margin: var(--dl-space-space-tripleunit);
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  text-decoration: none;
+}
+.first-page-laptops-link1 {
+  display: contents;
+}
+.first-page-laptops-icon2 {
+  width: 42px;
+  height: 42px;
+  margin: var(--dl-space-space-tripleunit);
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  text-decoration: none;
+}
+.first-page-laptops-link2 {
+  display: contents;
+}
+.first-page-laptops-icon4 {
+  width: 42px;
+  height: 42px;
+  margin: var(--dl-space-space-tripleunit);
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.first-page-laptops-image {
+  width: 443px;
+  height: 50%;
+  margin: var(--dl-space-space-unit);
+  padding: var(--dl-space-space-doubleunit);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  border-top-left-radius: 90%;
+  border-top-right-radius: 90%;
+  border-bottom-left-radius: 90%;
+  border-bottom-right-radius: 90%;
+}
+
+@media(max-width: 991px) {
+  .first-page-laptops-text {
+    color: #9C6660;
+    width: 100%;
+    height: 100%;
+    margin: var(--dl-space-space-doubleunit);
+    padding: var(--dl-space-space-doubleunit);
+    font-style: normal;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    letter-spacing: 3.9px;
+  }
+  .first-page-laptops-text2 {
+    color: #181818;
+    font-size: 350%;
+    font-style: normal;
+    font-family: El Messiri;
+    font-weight: 500;
+    letter-spacing: -1.3px;
+  }
+  .first-page-laptops-text4 {
+    color: #181818;
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    font-size: 120%;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 300;
+  }
+  .first-page-laptops-social-bar {
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon {
+    width: 64px;
+    height: 64px;
+    margin: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon2 {
+    width: 64px;
+    height: 64px;
+    margin: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon4 {
+    width: 64px;
+    height: 64px;
+    margin: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-image {
+    width: 60%;
+    height: 60%;
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-round);
+  }
+}
+@media(max-width: 767px) {
+  .first-page-laptops-text {
+    color: #9C6660;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: 3.9px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-laptops-text2 {
+    color: %181818;
+    font-size: 300%;
+    align-self: stretch;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: El Messiri;
+    padding-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-laptops-text4 {
+    color: #181818;
+    font-size: 100%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-tripleunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-laptops-social-bar {
+    width: 100%;
+    height: 100%;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon {
+    width: 62px;
+    height: 64px;
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon2 {
+    width: 64px;
+    height: 54px;
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon4 {
+    width: 64px;
+    height: 64px;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-image {
+    width: 70%;
+    height: 70%;
+    margin-top: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-round);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .first-page-laptops-text {
+    color: #9C6660;
+    width: 100%;
+    height: 100%;
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    font-size: 80%;
+    align-self: center;
+    text-align: center;
+    font-family: Inter;
+    letter-spacing: 3.9px;
+  }
+  .first-page-laptops-text2 {
+    color: #181818;
+    font-size: 200%;
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    font-family: El Messiri;
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+  }
+  .first-page-laptops-text4 {
+    color: #181818;
+    font-size: 80%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .first-page-laptops-social-bar {
+    width: 100%;
+    margin-top: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-laptops-icon {
+    width: 32px;
+    height: 32px;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon2 {
+    width: 32px;
+    height: 32px;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-icon4 {
+    width: 32px;
+    height: 32px;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-laptops-image {
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-round);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-laptops-root-class-name {
+    display: none;
+  }
+}
+
+.first-page-mobile-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.first-page-mobile-text {
+  color: #9C6660;
+  font-size: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  margin-left: var(--dl-space-space-doubleunit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 3.9px;
+}
+.first-page-mobile-text1 {
+  text-transform: uppercase;
+}
+.first-page-mobile-image {
+  width: 443px;
+  height: 50%;
+  margin: var(--dl-space-space-unit);
+  padding: var(--dl-space-space-doubleunit);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  border-top-left-radius: 90%;
+  border-top-right-radius: 90%;
+  border-bottom-left-radius: 90%;
+  border-bottom-right-radius: 90%;
+}
+.first-page-mobile-text2 {
+  font-size: 350%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: El Messiri;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-doubleunit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  letter-spacing: -1.3px;
+}
+.first-page-mobile-text4 {
+  color: #181818;
+  margin: var(--dl-space-space-unit);
+  font-size: 100%;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.first-page-mobile-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.first-page-mobile-social-bar {
+  width: 100%;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+  justify-content: center;
+}
+.first-page-mobile-link {
+  display: contents;
+}
+.first-page-mobile-icon {
+  width: 42px;
+  height: 42px;
+  margin: var(--dl-space-space-tripleunit);
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  text-decoration: none;
+}
+.first-page-mobile-link1 {
+  display: contents;
+}
+.first-page-mobile-icon2 {
+  width: 42px;
+  height: 42px;
+  margin: var(--dl-space-space-tripleunit);
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  text-decoration: none;
+}
+.first-page-mobile-link2 {
+  display: contents;
+}
+.first-page-mobile-icon4 {
+  width: 42px;
+  height: 42px;
+  margin: var(--dl-space-space-tripleunit);
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.first-page-mobile-root-class-name {
+  display: none;
+}
+@media(max-width: 991px) {
+  .first-page-mobile-text {
+    color: #9C6660;
+    width: 100%;
+    height: 100%;
+    margin: var(--dl-space-space-doubleunit);
+    padding: var(--dl-space-space-doubleunit);
+    font-style: normal;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    letter-spacing: 3.9px;
+  }
+  .first-page-mobile-image {
+    width: 60%;
+    height: 60%;
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .first-page-mobile-text2 {
+    color: #181818;
+    font-size: 350%;
+    font-style: normal;
+    font-family: El Messiri;
+    font-weight: 500;
+    letter-spacing: -1.3px;
+  }
+  .first-page-mobile-text4 {
+    color: #181818;
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    font-size: 120%;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 300;
+  }
+  .first-page-mobile-social-bar {
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon {
+    width: 64px;
+    height: 64px;
+    margin: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon2 {
+    width: 64px;
+    height: 64px;
+    margin: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon4 {
+    width: 64px;
+    height: 64px;
+    margin: var(--dl-space-space-doubleunit);
+  }
+}
+@media(max-width: 767px) {
+  .first-page-mobile-text {
+    color: #9C6660;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: 3.9px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-mobile-image {
+    width: 70%;
+    height: 70%;
+    margin-top: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-round);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-mobile-text2 {
+    color: %181818;
+    font-size: 300%;
+    align-self: stretch;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: El Messiri;
+    padding-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-mobile-text4 {
+    color: #181818;
+    font-size: 100%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-tripleunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-mobile-social-bar {
+    width: 100%;
+    height: 100%;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon {
+    width: 62px;
+    height: 64px;
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon2 {
+    width: 64px;
+    height: 54px;
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon4 {
+    width: 64px;
+    height: 64px;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+  }
+}
+@media(max-width: 479px) {
+  .first-page-mobile-text {
+    color: #9C6660;
+    width: 100%;
+    height: 100%;
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    font-size: 80%;
+    align-self: center;
+    text-align: center;
+    font-family: Inter;
+    letter-spacing: 3.9px;
+  }
+  .first-page-mobile-image {
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-round);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-mobile-text2 {
+    color: #181818;
+    font-size: 200%;
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    font-family: El Messiri;
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+  }
+  .first-page-mobile-text4 {
+    color: #181818;
+    font-size: 80%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .first-page-mobile-social-bar {
+    width: 100%;
+    margin-top: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-mobile-icon {
+    width: 32px;
+    height: 32px;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon2 {
+    width: 32px;
+    height: 32px;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-icon4 {
+    width: 32px;
+    height: 32px;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: var(--dl-space-space-doubleunit);
+    margin-right: var(--dl-space-space-doubleunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-root-class-name {
+    display: flex;
+  }
+}
+
 .app-component-container {
   margin: var(--dl-space-space-halfunit);
   display: flex;
@@ -12,8 +672,12 @@
 }
 .app-component-text {
   color: #181818;
+  font-size: 18px;
+  font-family: Inter;
 }
-
+.app-component-root-class-name {
+  margin: var(--dl-space-space-doubleunit);
+}
 @media(max-width: 991px) {
   .app-component-container {
     margin: var(--dl-space-space-unit);
@@ -91,22 +755,24 @@
 }
 
 .testimonial-card-testimonial-card {
-  width: 100%;
+  width: 480px;
   display: flex;
-  padding: 48px;
+  padding: var(--dl-space-space-unit);
   position: relative;
   max-width: 1400px;
   background: #fff;
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
   align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
 }
 .testimonial-card-testimonial {
+  width: 322px;
+  margin: var(--dl-space-space-unit);
   display: flex;
-  align-items: flex-start;
-  margin-right: 48px;
+  align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .testimonial-card-icon {
   width: 48px;
@@ -124,6 +790,9 @@
 }
 .testimonial-card-text3 {
   color: #181818;
+}
+.testimonial-card-root-class-name {
+  max-width: auto;
 }
 @media(max-width: 991px) {
   .testimonial-card-testimonial-card {
@@ -245,110 +914,6 @@
   flex-direction: column;
   background-color: #fafafa;
 }
-.daiany-fernandes-personal-styliste-organizer-text {
-  color: #9C6660;
-  font-size: 100%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  text-align: left;
-  font-family: Inter;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-doubleunit);
-  margin-right: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-halfunit);
-  letter-spacing: 3.9px;
-}
-.daiany-fernandes-personal-styliste-organizer-text01 {
-  text-transform: uppercase;
-}
-.daiany-fernandes-personal-styliste-organizer-image {
-  width: 443px;
-  height: 50%;
-  margin: var(--dl-space-space-unit);
-  padding: var(--dl-space-space-doubleunit);
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  border-top-left-radius: 90%;
-  border-top-right-radius: 90%;
-  border-bottom-left-radius: 90%;
-  border-bottom-right-radius: 90%;
-}
-.daiany-fernandes-personal-styliste-organizer-text02 {
-  font-size: 350%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-fourunits);
-  font-family: El Messiri;
-  font-weight: 400;
-  margin-left: var(--dl-space-space-doubleunit);
-  margin-right: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-fourunits);
-  letter-spacing: -1.3px;
-}
-.daiany-fernandes-personal-styliste-organizer-text04 {
-  color: #181818;
-  margin: var(--dl-space-space-unit);
-  font-size: 100%;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 300;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-doubleunit);
-}
-.daiany-fernandes-personal-styliste-organizer-container2 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.daiany-fernandes-personal-styliste-organizer-social-bar {
-  width: 100%;
-  margin: var(--dl-space-space-unit);
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  align-self: flex-start;
-  justify-content: center;
-}
-.daiany-fernandes-personal-styliste-organizer-link {
-  display: contents;
-}
-.daiany-fernandes-personal-styliste-organizer-icon {
-  width: 42px;
-  height: 42px;
-  margin: var(--dl-space-space-tripleunit);
-  padding: var(--dl-space-space-halfunit);
-  align-self: center;
-  text-decoration: none;
-}
-.daiany-fernandes-personal-styliste-organizer-link1 {
-  display: contents;
-}
-.daiany-fernandes-personal-styliste-organizer-icon2 {
-  width: 42px;
-  height: 42px;
-  margin: var(--dl-space-space-tripleunit);
-  padding: var(--dl-space-space-halfunit);
-  align-self: center;
-  text-decoration: none;
-}
-.daiany-fernandes-personal-styliste-organizer-link2 {
-  display: contents;
-}
-.daiany-fernandes-personal-styliste-organizer-icon4 {
-  width: 42px;
-  height: 42px;
-  margin: var(--dl-space-space-tripleunit);
-  padding: var(--dl-space-space-halfunit);
-  font-size: 18px;
-  align-self: center;
-  font-style: normal;
-  font-family: Roboto;
-  font-weight: 700;
-  line-height: 1.55;
-  text-transform: capitalize;
-  text-decoration: none;
-}
 .daiany-fernandes-personal-styliste-organizer-separator {
   width: 100%;
   height: 1px;
@@ -356,8 +921,43 @@
   margin-bottom: 24px;
   background-color: var(--dl-color-gray-900);
 }
-.daiany-fernandes-personal-styliste-organizer-text07 {
+.daiany-fernandes-personal-styliste-organizer-text02 {
   color: #181818;
+}
+.daiany-fernandes-personal-styliste-organizer-footer {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.daiany-fernandes-personal-styliste-organizer-image {
+  width: 50px;
+  object-fit: cover;
+}
+.daiany-fernandes-personal-styliste-organizer-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.daiany-fernandes-personal-styliste-organizer-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.daiany-fernandes-personal-styliste-organizer-icon2 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.daiany-fernandes-personal-styliste-organizer-icon4 {
+  width: 16px;
+  height: 16px;
 }
 @media(max-width: 991px) {
   .daiany-fernandes-personal-styliste-organizer-container {
@@ -378,71 +978,16 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .daiany-fernandes-personal-styliste-organizer-text {
-    color: #9C6660;
-    width: 100%;
-    height: 100%;
-    margin: var(--dl-space-space-doubleunit);
-    padding: var(--dl-space-space-doubleunit);
-    font-style: normal;
-    text-align: center;
-    font-family: Inter;
-    font-weight: 300;
-    letter-spacing: 3.9px;
-  }
-  .daiany-fernandes-personal-styliste-organizer-image {
-    width: 60%;
-    height: 60%;
-    margin: var(--dl-space-space-unit);
-    padding: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-round);
-  }
-  .daiany-fernandes-personal-styliste-organizer-text02 {
-    color: #181818;
-    font-size: 350%;
-    font-style: normal;
-    font-family: El Messiri;
-    font-weight: 500;
-    letter-spacing: -1.3px;
-  }
-  .daiany-fernandes-personal-styliste-organizer-text04 {
-    color: #181818;
-    margin: var(--dl-space-space-unit);
-    padding: var(--dl-space-space-unit);
-    font-size: 120%;
-    font-style: normal;
-    font-family: Inter;
-    font-weight: 300;
-  }
-  .daiany-fernandes-personal-styliste-organizer-social-bar {
-    margin: var(--dl-space-space-unit);
-    padding: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon {
-    width: 64px;
-    height: 64px;
-    margin: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon2 {
-    width: 64px;
-    height: 64px;
-    margin: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon4 {
-    width: 64px;
-    height: 64px;
-    margin: var(--dl-space-space-doubleunit);
-  }
   .daiany-fernandes-personal-styliste-organizer-separator {
     width: 90%;
   }
-  .daiany-fernandes-personal-styliste-organizer-text05 {
+  .daiany-fernandes-personal-styliste-organizer-text {
     font-size: 250%;
     font-style: normal;
     font-family: El Messiri;
     font-weight: 300;
   }
-  .daiany-fernandes-personal-styliste-organizer-text07 {
+  .daiany-fernandes-personal-styliste-organizer-text02 {
     margin: var(--dl-space-space-unit);
     padding: var(--dl-space-space-unit);
     font-size: 100%;
@@ -469,86 +1014,11 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .daiany-fernandes-personal-styliste-organizer-text {
-    color: #9C6660;
-    width: 100%;
-    height: 100%;
-    font-size: 100%;
-    font-style: normal;
-    margin-top: var(--dl-space-space-unit);
-    text-align: center;
-    font-family: Inter;
-    font-weight: 300;
-    padding-top: var(--dl-space-space-unit);
-    margin-bottom: var(--dl-space-space-unit);
-    letter-spacing: 3.9px;
-    padding-bottom: var(--dl-space-space-unit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-image {
-    width: 70%;
-    height: 70%;
-    margin-top: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-round);
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-text02 {
-    color: %181818;
-    font-size: 300%;
-    align-self: stretch;
-    margin-top: var(--dl-space-space-unit);
-    text-align: center;
-    font-family: El Messiri;
-    padding-top: var(--dl-space-space-unit);
-    margin-bottom: var(--dl-space-space-unit);
-    letter-spacing: -1.3px;
-    padding-bottom: var(--dl-space-space-unit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-text04 {
-    color: #181818;
-    font-size: 100%;
-    font-style: normal;
-    margin-top: var(--dl-space-space-unit);
-    text-align: center;
-    font-family: Inter;
-    font-weight: 300;
-    padding-top: var(--dl-space-space-unit);
-    padding-left: var(--dl-space-space-tripleunit);
-    margin-bottom: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-tripleunit);
-    padding-bottom: var(--dl-space-space-unit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-social-bar {
-    width: 100%;
-    height: 100%;
-    padding-top: var(--dl-space-space-doubleunit);
-    padding-left: var(--dl-space-space-doubleunit);
-    padding-right: var(--dl-space-space-doubleunit);
-    padding-bottom: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon {
-    width: 62px;
-    height: 64px;
-    margin-left: var(--dl-space-space-doubleunit);
-    margin-right: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon2 {
-    width: 64px;
-    height: 54px;
-    margin-left: var(--dl-space-space-doubleunit);
-    margin-right: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon4 {
-    width: 64px;
-    height: 64px;
-    align-self: center;
-    margin-left: var(--dl-space-space-doubleunit);
-    margin-right: var(--dl-space-space-doubleunit);
-  }
   .daiany-fernandes-personal-styliste-organizer-separator {
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  .daiany-fernandes-personal-styliste-organizer-text05 {
+  .daiany-fernandes-personal-styliste-organizer-text {
     color: %181818;
     width: 100%;
     height: 100%;
@@ -564,12 +1034,21 @@
     letter-spacing: -1.3px;
     padding-bottom: var(--dl-space-space-unit);
   }
-  .daiany-fernandes-personal-styliste-organizer-text07 {
+  .daiany-fernandes-personal-styliste-organizer-text02 {
     font-size: 90%;
     font-style: normal;
     text-align: center;
     font-family: Inter;
     font-weight: 300;
+  }
+  .daiany-fernandes-personal-styliste-organizer-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-text13 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
@@ -595,87 +1074,13 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .daiany-fernandes-personal-styliste-organizer-text {
-    color: #9C6660;
-    width: 100%;
-    height: 100%;
-    margin: var(--dl-space-space-unit);
-    padding: var(--dl-space-space-unit);
-    font-size: 80%;
-    align-self: center;
-    text-align: center;
-    font-family: Inter;
-    letter-spacing: 3.9px;
-  }
-  .daiany-fernandes-personal-styliste-organizer-image {
-    width: 80%;
-    height: 80%;
-    align-self: center;
-    margin-top: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-round);
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-text02 {
-    color: #181818;
-    font-size: 200%;
-    align-self: center;
-    margin-top: var(--dl-space-space-unit);
-    font-family: El Messiri;
-    margin-bottom: var(--dl-space-space-unit);
-    letter-spacing: -1.3px;
-  }
-  .daiany-fernandes-personal-styliste-organizer-text04 {
-    color: #181818;
-    font-size: 80%;
-    font-style: normal;
-    margin-top: var(--dl-space-space-unit);
-    text-align: center;
-    font-family: Inter;
-    font-weight: 300;
-    padding-left: var(--dl-space-space-tripleunit);
-    margin-bottom: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-tripleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-social-bar {
-    width: 100%;
-    margin-top: var(--dl-space-space-unit);
-    padding-top: var(--dl-space-space-unit);
-    padding-left: var(--dl-space-space-unit);
-    margin-bottom: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-unit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon {
-    width: 32px;
-    height: 32px;
-    margin-top: var(--dl-space-space-doubleunit);
-    margin-left: var(--dl-space-space-doubleunit);
-    margin-right: var(--dl-space-space-doubleunit);
-    margin-bottom: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon2 {
-    width: 32px;
-    height: 32px;
-    margin-top: var(--dl-space-space-doubleunit);
-    margin-left: var(--dl-space-space-doubleunit);
-    margin-right: var(--dl-space-space-doubleunit);
-    margin-bottom: var(--dl-space-space-doubleunit);
-  }
-  .daiany-fernandes-personal-styliste-organizer-icon4 {
-    width: 32px;
-    height: 32px;
-    margin-top: var(--dl-space-space-doubleunit);
-    margin-left: var(--dl-space-space-doubleunit);
-    margin-right: var(--dl-space-space-doubleunit);
-    margin-bottom: var(--dl-space-space-doubleunit);
-  }
   .daiany-fernandes-personal-styliste-organizer-separator {
     width: 90%;
     align-self: center;
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
-  .daiany-fernandes-personal-styliste-organizer-text05 {
+  .daiany-fernandes-personal-styliste-organizer-text {
     color: #181818;
     width: 100%;
     height: 100%;
@@ -689,7 +1094,7 @@
     margin-bottom: var(--dl-space-space-unit);
     letter-spacing: -1.3px;
   }
-  .daiany-fernandes-personal-styliste-organizer-text07 {
+  .daiany-fernandes-personal-styliste-organizer-text02 {
     font-size: 80%;
     font-style: normal;
     margin-top: var(--dl-space-space-unit);
@@ -699,5 +1104,14 @@
     padding-left: var(--dl-space-space-tripleunit);
     margin-bottom: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-tripleunit);
+  }
+  .daiany-fernandes-personal-styliste-organizer-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .daiany-fernandes-personal-styliste-organizer-text13 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
 }

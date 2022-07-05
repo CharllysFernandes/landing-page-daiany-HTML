@@ -12,8 +12,12 @@
 }
 .component-text {
   color: #181818;
+  font-size: 18px;
+  font-family: Inter;
 }
-
+.component-root-class-name {
+  margin: var(--dl-space-space-doubleunit);
+}
 @media(max-width: 991px) {
   .component-container {
     margin: var(--dl-space-space-unit);

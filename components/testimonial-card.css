@@ -1,20 +1,22 @@
 .testimonial-card-testimonial-card {
-  width: 100%;
+  width: 480px;
   display: flex;
-  padding: 48px;
+  padding: var(--dl-space-space-unit);
   position: relative;
   max-width: 1400px;
   background: #fff;
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
   align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
 }
 .testimonial-card-testimonial {
+  width: 322px;
+  margin: var(--dl-space-space-unit);
   display: flex;
-  align-items: flex-start;
-  margin-right: 48px;
+  align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .testimonial-card-icon {
   width: 48px;
@@ -32,6 +34,9 @@
 }
 .testimonial-card-text3 {
   color: #181818;
+}
+.testimonial-card-root-class-name {
+  max-width: auto;
 }
 @media(max-width: 991px) {
   .testimonial-card-testimonial-card {
