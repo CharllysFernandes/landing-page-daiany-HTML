@@ -885,7 +885,7 @@
   border-radius: 16px;
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-halfunit);
   background-color: #fafafa;
 }
 .daiany-fernandes-personal-styliste-organizer-separator {
@@ -1085,6 +1085,49 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-black);
 }
+.daiany-fernandes-personal-styliste-organizer-banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: space-between;
+}
+.daiany-fernandes-personal-styliste-organizer-heading {
+  font-size: 250%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  font-family: El Messiri;
+  font-weight: 400;
+  letter-spacing: -1.3px;
+}
+.daiany-fernandes-personal-styliste-organizer-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.daiany-fernandes-personal-styliste-organizer-input {
+  font-size: 0.75rem;
+  border-color: var(--dl-color-gray-500);
+}
+.daiany-fernandes-personal-styliste-organizer-button2 {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.daiany-fernandes-personal-styliste-organizer-button2:hover {
+  color: var(--dl-color-gray-black);
+  background-color: transparent;
+}
 .daiany-fernandes-personal-styliste-organizer-footer {
   width: 100%;
   height: 142px;
@@ -1192,6 +1235,12 @@
     max-width: 100%;
     align-items: center;
   }
+  .daiany-fernandes-personal-styliste-organizer-heading {
+    font-size: 250%;
+    font-style: normal;
+    font-family: El Messiri;
+    font-weight: 300;
+  }
 }
 @media(max-width: 767px) {
   .daiany-fernandes-personal-styliste-organizer-container {
@@ -1284,11 +1333,31 @@
     margin-right: 0px;
     margin-bottom: 32px;
   }
+  .daiany-fernandes-personal-styliste-organizer-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-heading {
+    color: %181818;
+    width: 100%;
+    height: 100%;
+    font-size: 250%;
+    align-self: center;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: El Messiri;
+    font-weight: 400;
+    padding-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
   .daiany-fernandes-personal-styliste-organizer-footer {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .daiany-fernandes-personal-styliste-organizer-text29 {
+  .daiany-fernandes-personal-styliste-organizer-text30 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -1386,11 +1455,39 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
   }
+  .daiany-fernandes-personal-styliste-organizer-banner {
+    padding-top: 48px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 48px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-heading {
+    color: #181818;
+    width: 100%;
+    height: 100%;
+    font-size: 150%;
+    align-self: center;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: El Messiri;
+    font-weight: 400;
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-container6 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .daiany-fernandes-personal-styliste-organizer-button2 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
   .daiany-fernandes-personal-styliste-organizer-footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .daiany-fernandes-personal-styliste-organizer-text29 {
+  .daiany-fernandes-personal-styliste-organizer-text30 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
