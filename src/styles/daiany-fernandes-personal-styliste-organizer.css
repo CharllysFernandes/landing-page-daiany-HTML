@@ -257,7 +257,7 @@
     padding-bottom: var(--dl-space-space-unit);
   }
   .first-page-laptops-text2 {
-    color: %181818;
+    color: #181818;
     font-size: 300%;
     align-self: stretch;
     margin-top: var(--dl-space-space-unit);
@@ -598,7 +598,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .first-page-mobile-text2 {
-    color: %181818;
+    color: #181818;
     font-size: 300%;
     align-self: stretch;
     margin-top: var(--dl-space-space-unit);
@@ -870,7 +870,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/fundo%20gradiente-1500w.jpg");
+  background-image: url("../public/playground_assets/fundo%20gradiente-1500w.jpg");
 }
 
 .daiany-fernandes-personal-styliste-organizer-container1 {
@@ -1172,7 +1172,7 @@
   .daiany-fernandes-personal-styliste-organizer-container {
     padding: var(--dl-space-space-unit);
     background-size: cover;
-    background-image: url("public/playground_assets/fundo%20gradiente-1500w.jpg");
+    background-image: url("../public/playground_assets/fundo%20gradiente-1500w.jpg");
   }
   .daiany-fernandes-personal-styliste-organizer-container1 {
     width: 90%;
@@ -1245,7 +1245,7 @@
 @media(max-width: 767px) {
   .daiany-fernandes-personal-styliste-organizer-container {
     background-size: cover;
-    background-image: url("public/playground_assets/fundo%20gradiente-1500w.jpg");
+    background-image: url("../public/playground_assets/fundo%20gradiente-1500w.jpg");
   }
   .daiany-fernandes-personal-styliste-organizer-container1 {
     width: 90%;
@@ -1265,7 +1265,7 @@
     margin-bottom: 24px;
   }
   .daiany-fernandes-personal-styliste-organizer-label-about {
-    color: %181818;
+    color: #181818;
     width: 100%;
     height: 100%;
     font-size: 250%;
@@ -1299,7 +1299,7 @@
     margin-bottom: 24px;
   }
   .daiany-fernandes-personal-styliste-organizer-label-i-do {
-    color: %181818;
+    color: #181818;
     width: 100%;
     height: 100%;
     font-size: 250%;
@@ -1338,7 +1338,7 @@
     padding-right: 32px;
   }
   .daiany-fernandes-personal-styliste-organizer-heading {
-    color: %181818;
+    color: #181818;
     width: 100%;
     height: 100%;
     font-size: 250%;
@@ -1366,7 +1366,7 @@
 @media(max-width: 479px) {
   .daiany-fernandes-personal-styliste-organizer-container {
     background-size: cover;
-    background-image: url("public/playground_assets/fundo%20gradiente-1500w.jpg");
+    background-image: url("../public/playground_assets/fundo%20gradiente-1500w.jpg");
   }
   .daiany-fernandes-personal-styliste-organizer-container1 {
     width: 80%;
