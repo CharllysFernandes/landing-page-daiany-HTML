@@ -3,13 +3,22 @@
   display: flex;
   position: relative;
   align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
   flex-direction: row;
 }
 .first-page-laptops-container1 {
+  flex: 2;
   width: 100%;
+  height: auto;
+  margin: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .first-page-laptops-text {
   color: #9C6660;
@@ -28,11 +37,13 @@
   text-transform: uppercase;
 }
 .first-page-laptops-text2 {
+  width: 100%;
   font-size: 350%;
   font-style: normal;
   margin-top: var(--dl-space-space-fourunits);
   font-family: El Messiri;
   font-weight: 400;
+  line-height: -1;
   margin-left: var(--dl-space-space-doubleunit);
   margin-right: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-fourunits);
@@ -50,19 +61,17 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.first-page-laptops-container2 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 .first-page-laptops-social-bar {
-  width: 100%;
-  margin: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
   display: flex;
   padding: var(--dl-space-space-unit);
   align-self: flex-start;
-  justify-content: center;
+  margin-top: var(--dl-space-space-fourunits);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
 }
 .first-page-laptops-link {
   display: contents;
@@ -70,53 +79,93 @@
 .first-page-laptops-icon {
   width: 42px;
   height: 42px;
-  margin: var(--dl-space-space-tripleunit);
+  margin: var(--dl-space-space-halfunit);
   padding: var(--dl-space-space-halfunit);
   align-self: center;
+  transition: 0.3s;
   text-decoration: none;
 }
+
 .first-page-laptops-link1 {
   display: contents;
 }
 .first-page-laptops-icon2 {
   width: 42px;
   height: 42px;
-  margin: var(--dl-space-space-tripleunit);
+  margin: var(--dl-space-space-halfunit);
   padding: var(--dl-space-space-halfunit);
   align-self: center;
+  transition: 0.3s;
   text-decoration: none;
 }
+
 .first-page-laptops-link2 {
   display: contents;
 }
 .first-page-laptops-icon4 {
   width: 42px;
   height: 42px;
-  margin: var(--dl-space-space-tripleunit);
+  margin: var(--dl-space-space-halfunit);
   padding: var(--dl-space-space-halfunit);
   font-size: 18px;
   align-self: center;
   font-style: normal;
+  transition: 0.3s;
   font-family: Roboto;
   font-weight: 700;
   line-height: 1.55;
   text-transform: capitalize;
   text-decoration: none;
 }
-.first-page-laptops-image {
-  width: 443px;
-  height: 50%;
+
+.first-page-laptops-container2 {
+  flex: 1;
+  width: auto;
+  height: 500px;
   margin: var(--dl-space-space-unit);
-  padding: var(--dl-space-space-doubleunit);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-page-laptops-image {
+  width: 100%;
+  height: 100%;
+  padding: var(--dl-space-space-fourunits);
+  margin-top: var(--dl-space-space-doubleunit);
   object-fit: cover;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-round);
+  margin-bottom: var(--dl-space-space-doubleunit);
   border-top-left-radius: 90%;
   border-top-right-radius: 90%;
   border-bottom-left-radius: 90%;
   border-bottom-right-radius: 90%;
 }
-
+.first-page-laptops-image:hover {
+  margin-top: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.first-page-laptops-root-class-name {
+  top: 16px;
+  left: 8px;
+  width: 100%;
+  height: 20%;
+  margin: var(--dl-space-space-unit);
+  position: static;
+}
 @media(max-width: 991px) {
+  .first-page-laptops-container {
+    height: 100%;
+  }
+  .first-page-laptops-container1 {
+    flex: 1;
+    height: 10%;
+  }
   .first-page-laptops-text {
     color: #9C6660;
     width: 100%;
@@ -131,6 +180,7 @@
   }
   .first-page-laptops-text2 {
     color: #181818;
+    height: 100%;
     font-size: 350%;
     font-style: normal;
     font-family: El Messiri;
@@ -139,6 +189,8 @@
   }
   .first-page-laptops-text4 {
     color: #181818;
+    width: 100%;
+    height: 100%;
     margin: var(--dl-space-space-unit);
     padding: var(--dl-space-space-unit);
     font-size: 120%;
@@ -147,6 +199,8 @@
     font-weight: 300;
   }
   .first-page-laptops-social-bar {
+    width: 100%;
+    height: 100%;
     margin: var(--dl-space-space-unit);
     padding: var(--dl-space-space-doubleunit);
   }
@@ -165,15 +219,28 @@
     height: 64px;
     margin: var(--dl-space-space-doubleunit);
   }
+  .first-page-laptops-container2 {
+    width: 100%;
+    height: 100%;
+  }
   .first-page-laptops-image {
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     margin: var(--dl-space-space-unit);
     padding: var(--dl-space-space-unit);
     border-radius: var(--dl-radius-radius-round);
   }
+  .first-page-laptops-root-class-name {
+    width: 100%;
+    height: 30%;
+    display: none;
+  }
 }
 @media(max-width: 767px) {
+  .first-page-laptops-container {
+    width: 100%;
+    height: 100%;
+  }
   .first-page-laptops-text {
     color: #9C6660;
     width: 100%;
@@ -248,6 +315,9 @@
     margin-top: var(--dl-space-space-unit);
     border-radius: var(--dl-radius-radius-round);
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .first-page-laptops-root-class-name {
+    display: none;
   }
 }
 @media(max-width: 479px) {
@@ -500,6 +570,9 @@
     height: 64px;
     margin: var(--dl-space-space-doubleunit);
   }
+  .first-page-mobile-root-class-name {
+    display: flex;
+  }
 }
 @media(max-width: 767px) {
   .first-page-mobile-text {
@@ -576,6 +649,9 @@
     align-self: center;
     margin-left: var(--dl-space-space-doubleunit);
     margin-right: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-root-class-name {
+    display: flex;
   }
 }
 @media(max-width: 479px) {
@@ -658,41 +734,65 @@
   }
 }
 
-.app-component-container {
+.text-about1-container {
+  width: 100%;
+  height: 100%;
   margin: var(--dl-space-space-halfunit);
   display: flex;
   padding: var(--dl-space-space-halfunit);
   position: relative;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
 }
-.app-component-icon {
-  width: 64px;
-  height: 64px;
+.text-about1-icon {
+  width: 5%;
+  height: 5%;
+  padding: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-doubleunit);
 }
-.app-component-text {
+.text-about1-text {
   color: #181818;
+  width: 100%;
+  height: 100%;
   font-size: 18px;
+  font-style: normal;
   font-family: Inter;
+  font-weight: 300;
 }
-.app-component-root-class-name {
-  margin: var(--dl-space-space-doubleunit);
+.text-about1-root-class-name {
+  top: 1135px;
+  left: 152px;
+  width: 80%;
+  height: 50%;
+  margin: var(--dl-space-space-halfunit);
+  position: static;
+  align-self: center;
+}
+.text-about1-root-class-name1 {
+  top: 1147px;
+  left: 152px;
+  width: 80%;
+  height: 50%;
+  margin: var(--dl-space-space-halfunit);
+  position: static;
+  align-self: center;
 }
 @media(max-width: 991px) {
-  .app-component-container {
+  .text-about1-container {
     margin: var(--dl-space-space-unit);
     padding: var(--dl-space-space-unit);
     align-items: center;
     padding-left: 8px;
     flex-direction: row;
   }
-  .app-component-icon {
+  .text-about1-icon {
     width: 64px;
     height: 64px;
     margin: var(--dl-space-space-unit);
-    padding: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-halfunit);
   }
-  .app-component-text {
+  .text-about1-text {
     margin: var(--dl-space-space-unit);
     padding: var(--dl-space-space-unit);
     font-size: 90%;
@@ -702,11 +802,11 @@
   }
 }
 @media(max-width: 767px) {
-  .app-component-container {
+  .text-about1-container {
     align-items: center;
     flex-direction: row;
   }
-  .app-component-icon {
+  .text-about1-icon {
     width: 64px;
     height: 64px;
     margin-top: var(--dl-space-space-unit);
@@ -714,7 +814,7 @@
     margin-right: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
-  .app-component-text {
+  .text-about1-text {
     font-size: 90%;
     font-style: normal;
     margin-top: var(--dl-space-space-unit);
@@ -726,7 +826,7 @@
   }
 }
 @media(max-width: 479px) {
-  .app-component-container {
+  .text-about1-container {
     align-items: center;
     padding-top: 0px;
     padding-left: var(--dl-space-space-doubleunit);
@@ -734,11 +834,11 @@
     flex-direction: row;
     padding-bottom: 0px;
   }
-  .app-component-icon {
-    width: 30%;
-    height: 30%;
+  .text-about1-icon {
+    width: 10%;
+    height: 10%;
   }
-  .app-component-text {
+  .text-about1-text {
     font-size: 80%;
     font-style: normal;
     margin-top: var(--dl-space-space-unit);
@@ -749,141 +849,13 @@
     margin-bottom: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-tripleunit);
   }
-  .app-component-root-class-name {
+  .text-about1-root-class-name {
+    width: 80%;
     margin: var(--dl-space-space-halfunit);
   }
-}
-
-.testimonial-card-testimonial-card {
-  width: 480px;
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  position: relative;
-  max-width: 1400px;
-  background: #fff;
-  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.testimonial-card-testimonial {
-  width: 322px;
-  margin: var(--dl-space-space-unit);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.testimonial-card-icon {
-  width: 48px;
-  flex-shrink: 0;
-  margin-bottom: 32px;
-}
-.testimonial-card-text {
-  color: var(--dl-color-gray-500);
-  font-size: 1.15rem;
-  margin-bottom: 32px;
-}
-.testimonial-card-text1 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.testimonial-card-text3 {
-  color: #181818;
-}
-.testimonial-card-root-class-name {
-  max-width: auto;
-}
-@media(max-width: 991px) {
-  .testimonial-card-testimonial-card {
-    width: 320px;
-    padding: var(--dl-space-space-unit);
-  }
-  .testimonial-card-testimonial {
-    margin: var(--dl-space-space-doubleunit);
-    align-items: center;
-  }
-  .testimonial-card-icon {
-    margin: var(--dl-space-space-unit);
-  }
-  .testimonial-card-text {
-    margin: var(--dl-space-space-unit);
-  }
-  .testimonial-card-text1 {
-    font-size: 18px;
-    font-style: normal;
-    font-family: Inter;
-    font-weight: 400;
-  }
-}
-@media(max-width: 767px) {
-  .testimonial-card-testimonial-card {
-    width: 40%;
-    height: 40%;
-    padding: var(--dl-space-space-unit);
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .testimonial-card-testimonial {
-    margin: var(--dl-space-space-unit);
-    padding: var(--dl-space-space-unit);
-    align-items: center;
-  }
-  .testimonial-card-icon {
-    height: 48px;
-    margin: var(--dl-space-space-unit);
-    align-self: center;
-  }
-  .testimonial-card-text {
-    margin: var(--dl-space-space-unit);
-    padding: var(--dl-space-space-unit);
-    font-size: 16px;
-    font-style: normal;
-    font-family: Inter;
-    font-weight: 300;
-  }
-  .testimonial-card-text1 {
-    font-size: 18px;
-    font-style: normal;
-    text-align: center;
-    font-family: El Messiri;
-    font-weight: 400;
-  }
-}
-@media(max-width: 479px) {
-  .testimonial-card-testimonial-card {
-    width: 50%;
-    height: 40%;
-    max-width: 50%;
-    align-self: center;
-    padding-top: 0px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    flex-direction: column;
-    padding-bottom: 0px;
-  }
-  .testimonial-card-testimonial {
-    align-items: center;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .testimonial-card-icon {
-    width: 10%;
-    height: 10%;
-    margin-top: var(--dl-space-space-halfunit);
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .testimonial-card-text {
-    font-size: 50%;
-    font-style: normal;
-    margin-top: var(--dl-space-space-unit);
-    text-align: left;
-    font-family: Inter;
-    font-weight: 300;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .testimonial-card-text1 {
-    font-size: 40%;
+  .text-about1-root-class-name1 {
+    width: 80%;
+    margin: var(--dl-space-space-halfunit);
   }
 }
 
@@ -897,42 +869,231 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  justify-content: flex-start;
+  justify-content: center;
   background-image: url("public/playground_assets/fundo%20gradiente-1500w.jpg");
 }
 
 .daiany-fernandes-personal-styliste-organizer-container1 {
-  flex: 0 0 auto;
   width: 90%;
-  height: 90%;
+  height: auto;
   margin: var(--dl-space-space-doubleunit);
   display: flex;
-  padding: var(--dl-space-space-unit);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  position: relative;
   align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-unit);
   border-radius: 16px;
+  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
   background-color: #fafafa;
 }
 .daiany-fernandes-personal-styliste-organizer-separator {
-  width: 100%;
+  width: 80%;
   height: 1px;
   margin-top: 24px;
   margin-bottom: 24px;
   background-color: var(--dl-color-gray-900);
 }
-.daiany-fernandes-personal-styliste-organizer-text02 {
+.daiany-fernandes-personal-styliste-organizer-label-about {
+  font-size: 250%;
+  font-style: normal;
+  font-family: El Messiri;
+  font-weight: 400;
+  letter-spacing: -1.3px;
+}
+.daiany-fernandes-personal-styliste-organizer-text-about {
   color: #181818;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.daiany-fernandes-personal-styliste-organizer-text-about1 {
+  color: #181818;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.daiany-fernandes-personal-styliste-organizer-separator1 {
+  width: 80%;
+  height: 1px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: var(--dl-color-gray-900);
+}
+.daiany-fernandes-personal-styliste-organizer-label-i-do {
+  font-size: 250%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  font-family: El Messiri;
+  font-weight: 400;
+  letter-spacing: -1.3px;
+}
+.daiany-fernandes-personal-styliste-organizer-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.daiany-fernandes-personal-styliste-organizer-pricing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.daiany-fernandes-personal-styliste-organizer-container3 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+}
+.daiany-fernandes-personal-styliste-organizer-pricing-card {
+  width: 100%;
+  display: flex;
+  padding: 32px;
+  max-width: 450px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-right: 32px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.daiany-fernandes-personal-styliste-organizer-pricing-card:hover {
+  transform: scale(1.02);
+}
+.daiany-fernandes-personal-styliste-organizer-text13 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.daiany-fernandes-personal-styliste-organizer-container4 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 48px;
+  flex-direction: column;
+}
+.daiany-fernandes-personal-styliste-organizer-text14 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.daiany-fernandes-personal-styliste-organizer-text16 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.daiany-fernandes-personal-styliste-organizer-button {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.daiany-fernandes-personal-styliste-organizer-pricing-card1 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 450px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  padding-top: 32px;
+  margin-right: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.daiany-fernandes-personal-styliste-organizer-pricing-card1:hover {
+  transform: scale(1.02);
+}
+.daiany-fernandes-personal-styliste-organizer-text18 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.daiany-fernandes-personal-styliste-organizer-container5 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 48px;
+  flex-direction: column;
+}
+.daiany-fernandes-personal-styliste-organizer-text19 {
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.daiany-fernandes-personal-styliste-organizer-text21 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.daiany-fernandes-personal-styliste-organizer-text22 {
+  font-style: normal;
+  font-weight: 300;
+}
+.daiany-fernandes-personal-styliste-organizer-text23 {
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.daiany-fernandes-personal-styliste-organizer-text25 {
+  font-family: Inter;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.daiany-fernandes-personal-styliste-organizer-text26 {
+  font-style: normal;
+  font-weight: 300;
+}
+.daiany-fernandes-personal-styliste-organizer-text27 {
+  font-family: Inter;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.daiany-fernandes-personal-styliste-organizer-text28 {
+  font-style: normal;
+  font-weight: 300;
+}
+.daiany-fernandes-personal-styliste-organizer-button1 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
 }
 .daiany-fernandes-personal-styliste-organizer-footer {
   width: 100%;
+  height: 142px;
+  margin: var(--dl-space-space-unit);
   display: flex;
-  max-width: 1400px;
+  padding: var(--dl-space-space-halfunit);
+  max-width: 100%;
   align-items: center;
-  padding-top: 32px;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom: 32px;
+  align-content: flex-end;
   justify-content: space-between;
 }
 .daiany-fernandes-personal-styliste-organizer-image {
@@ -959,6 +1120,11 @@
   width: 16px;
   height: 16px;
 }
+@media(max-width: 1200px) {
+  .daiany-fernandes-personal-styliste-organizer-container1 {
+    height: auto;
+  }
+}
 @media(max-width: 991px) {
   .daiany-fernandes-personal-styliste-organizer-container {
     padding: var(--dl-space-space-unit);
@@ -967,6 +1133,7 @@
   }
   .daiany-fernandes-personal-styliste-organizer-container1 {
     width: 90%;
+    height: auto;
     margin: var(--dl-space-space-doubleunit);
     padding: var(--dl-space-space-unit);
     box-shadow: 5px 5px 10px 0px #d4d4d4;
@@ -981,13 +1148,13 @@
   .daiany-fernandes-personal-styliste-organizer-separator {
     width: 90%;
   }
-  .daiany-fernandes-personal-styliste-organizer-text {
+  .daiany-fernandes-personal-styliste-organizer-label-about {
     font-size: 250%;
     font-style: normal;
     font-family: El Messiri;
     font-weight: 300;
   }
-  .daiany-fernandes-personal-styliste-organizer-text02 {
+  .daiany-fernandes-personal-styliste-organizer-text-about {
     margin: var(--dl-space-space-unit);
     padding: var(--dl-space-space-unit);
     font-size: 100%;
@@ -995,6 +1162,35 @@
     text-align: center;
     font-family: Inter;
     font-weight: 300;
+  }
+  .daiany-fernandes-personal-styliste-organizer-text-about1 {
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    font-size: 100%;
+    font-style: normal;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+  }
+  .daiany-fernandes-personal-styliste-organizer-separator1 {
+    width: 90%;
+  }
+  .daiany-fernandes-personal-styliste-organizer-label-i-do {
+    font-size: 250%;
+    font-style: normal;
+    font-family: El Messiri;
+    font-weight: 300;
+  }
+  .daiany-fernandes-personal-styliste-organizer-pricing-card {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+  .daiany-fernandes-personal-styliste-organizer-pricing-card1 {
+    width: 100%;
+    padding: 32px;
+    max-width: 100%;
+    align-items: center;
   }
 }
 @media(max-width: 767px) {
@@ -1004,11 +1200,12 @@
   }
   .daiany-fernandes-personal-styliste-organizer-container1 {
     width: 90%;
+    height: auto;
     box-shadow: 5px 5px 10px 0px rgba(4, 4, 4, 0.1);
     margin-top: 5%;
     align-items: center;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 0px;
     border-radius: var(--dl-radius-radius-radius4);
     background-color: #fafafa;
     border-bottom-left-radius: 0;
@@ -1018,7 +1215,7 @@
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  .daiany-fernandes-personal-styliste-organizer-text {
+  .daiany-fernandes-personal-styliste-organizer-label-about {
     color: %181818;
     width: 100%;
     height: 100%;
@@ -1034,18 +1231,64 @@
     letter-spacing: -1.3px;
     padding-bottom: var(--dl-space-space-unit);
   }
-  .daiany-fernandes-personal-styliste-organizer-text02 {
+  .daiany-fernandes-personal-styliste-organizer-text-about {
     font-size: 90%;
     font-style: normal;
     text-align: center;
     font-family: Inter;
     font-weight: 300;
   }
+  .daiany-fernandes-personal-styliste-organizer-text-about1 {
+    font-size: 90%;
+    font-style: normal;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+  }
+  .daiany-fernandes-personal-styliste-organizer-separator1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-label-i-do {
+    color: %181818;
+    width: 100%;
+    height: 100%;
+    font-size: 250%;
+    align-self: center;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: El Messiri;
+    font-weight: 400;
+    padding-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .daiany-fernandes-personal-styliste-organizer-container3 {
+    flex-flow: column;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-pricing-card1 {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
   .daiany-fernandes-personal-styliste-organizer-footer {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .daiany-fernandes-personal-styliste-organizer-text13 {
+  .daiany-fernandes-personal-styliste-organizer-text29 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -1058,6 +1301,7 @@
   }
   .daiany-fernandes-personal-styliste-organizer-container1 {
     width: 80%;
+    height: auto;
     box-shadow: 5px 5px 10px 0px rgba(4, 4, 4, 0.1);
     margin-top: 10%;
     margin-left: 5%;
@@ -1080,7 +1324,7 @@
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
-  .daiany-fernandes-personal-styliste-organizer-text {
+  .daiany-fernandes-personal-styliste-organizer-label-about {
     color: #181818;
     width: 100%;
     height: 100%;
@@ -1094,7 +1338,7 @@
     margin-bottom: var(--dl-space-space-unit);
     letter-spacing: -1.3px;
   }
-  .daiany-fernandes-personal-styliste-organizer-text02 {
+  .daiany-fernandes-personal-styliste-organizer-text-about {
     font-size: 80%;
     font-style: normal;
     margin-top: var(--dl-space-space-unit);
@@ -1105,11 +1349,48 @@
     margin-bottom: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-tripleunit);
   }
+  .daiany-fernandes-personal-styliste-organizer-text-about1 {
+    font-size: 80%;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .daiany-fernandes-personal-styliste-organizer-separator1 {
+    width: 90%;
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .daiany-fernandes-personal-styliste-organizer-label-i-do {
+    color: #181818;
+    width: 100%;
+    height: 100%;
+    font-size: 150%;
+    align-self: center;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-family: El Messiri;
+    font-weight: 400;
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.3px;
+  }
+  .daiany-fernandes-personal-styliste-organizer-container3 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
   .daiany-fernandes-personal-styliste-organizer-footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .daiany-fernandes-personal-styliste-organizer-text13 {
+  .daiany-fernandes-personal-styliste-organizer-text29 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

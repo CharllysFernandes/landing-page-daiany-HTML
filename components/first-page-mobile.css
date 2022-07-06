@@ -168,6 +168,9 @@
     height: 64px;
     margin: var(--dl-space-space-doubleunit);
   }
+  .first-page-mobile-root-class-name {
+    display: flex;
+  }
 }
 @media(max-width: 767px) {
   .first-page-mobile-text {
@@ -244,6 +247,9 @@
     align-self: center;
     margin-left: var(--dl-space-space-doubleunit);
     margin-right: var(--dl-space-space-doubleunit);
+  }
+  .first-page-mobile-root-class-name {
+    display: flex;
   }
 }
 @media(max-width: 479px) {
