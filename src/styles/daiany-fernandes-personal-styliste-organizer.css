@@ -14,7 +14,7 @@
   margin: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-fiveunits);
+  padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
   flex-direction: column;
@@ -79,7 +79,7 @@
 .first-page-laptops-icon {
   width: 42px;
   height: 42px;
-  margin: var(--dl-space-space-halfunit);
+  margin: var(--dl-space-space-doubleunit);
   padding: var(--dl-space-space-halfunit);
   align-self: center;
   transition: 0.3s;
